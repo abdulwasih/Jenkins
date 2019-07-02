@@ -16,7 +16,7 @@ pipeline {
                  stage('Three') {
                           steps {
                                    
-                          echo 'Marvellous..! you have entered into final stage'
+                          echo 'Marvellous..! you have entered into stage 3'
                           }
                  }
                 
