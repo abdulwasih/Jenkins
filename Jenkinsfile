@@ -3,23 +3,19 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Zulaikha from edureka'
+                     echo 'Hi, this is Abdul Wasih..! You are on stage 1 '
                  }
                  }
+                  
                  stage('Two') {
                  steps {
-                    input('Do you want to proceed?')
+                          echo 'Congratulations..! you are on stage 2'
                  }
                  }
+                  
                  stage('Three') {
-                 when {
-                       not {
-                            branch "master"
-                       }
-                 }
-                 steps {
-                       echo "Hello"
-                 }
+                          echo 'Marvellous..! you have entered into final stage'
+                
                  }
                 
               }
